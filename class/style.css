@@ -1,0 +1,40 @@
+header h1
+{
+    background-color: brown;
+    color: aliceblue;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    font-size: 50px;
+
+}
+
+header div p{
+    position: relative;
+    z-index: 1;
+    color: white;
+    top: 150px
+  
+    
+}
+
+.flex-container{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-container p{
+    background-color: brown;
+    padding: 20px;
+}
+
+
